@@ -5,14 +5,14 @@ var _ = require('lodash');
 
 let service = {
     readInput: (fileName) => {
-        return fs.readFileSync(path.join(service.getDayPath(), fileName || 'input'), { encoding: 'utf-8' });
+        return fs.readFileSync(fileName, { encoding: 'utf-8' });
     },
-    readCommaSeperatedInput: (fileName) => {
+    readNewLineSeperatedInput: (fileName) => {
         return _.map(service.readInput(fileName).split(/\r\n|\n|\r/), (value) => {
             return value.trim();
         });
     },
-    readNewLineSeperatedInput: (fileName) => {
+    readCommaSeperatedInput: (fileName) => {
         return _.map(service.readInput(fileName).split(','), (value) => {
             return value.trim();
         });
