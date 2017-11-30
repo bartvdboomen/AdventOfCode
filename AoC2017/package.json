@@ -1,0 +1,9 @@
+{
+  "name": "ao-c2017",
+  "version": "0.0.0",
+  "description": "AoC2017",
+  "main": "app.js",
+  "author": {
+    "name": "bartb"
+  }
+}
