@@ -11,7 +11,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b50b791a-b267-4c1a-81ba-aa14a96eb787</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>2015\D1\index.js</StartupFile>
+    <StartupFile>D1\index.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
